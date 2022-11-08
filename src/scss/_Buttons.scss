@@ -1,0 +1,16 @@
+button{
+    width: 300px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: $white;
+    font-weight: bold;
+    background: $primary;
+    transition: background 0.3s;
+    &:hover{
+    transition: background 0.3s;
+    background: lighten($color: $primary, $amount: 10);
+}
+    
+}
